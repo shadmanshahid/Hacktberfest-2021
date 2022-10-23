@@ -2,7 +2,7 @@ class Solution {
 public:
     int reverse(int x) {
         int ans = 0;
-
+        //wHILE LOOP
         while(x!=0)
         {
             int digit = x % 10;
